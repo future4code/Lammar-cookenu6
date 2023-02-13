@@ -1,0 +1,20 @@
+
+### 
+POST http://localhost:3003/user/signupEndpoint 
+Content-Type: application/json
+
+{
+"name": "Ana Clara", 
+"email": "anaclara@email.com", 
+"password": "123456"
+}
+
+### 
+POST http://localhost:3003/user/loginEndpoint 
+Content-Type: application/json
+
+{
+"email": "anaclara@email.com",
+"password": "123456",
+"device":""
+}
